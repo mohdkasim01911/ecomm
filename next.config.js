@@ -3,6 +3,9 @@ const headers = require("./headers");
 const next_config = {
   reactStrictMode: false,
   swcMinify: true,
+  images: {
+    domains: ["e-commerce-eight-kappa-88.vercel.app"], // Add any external domains if needed
+  },
   i18n: {
     defaultLocale: "en",
     locales: ["en", "bn", "ar", "fr"],
