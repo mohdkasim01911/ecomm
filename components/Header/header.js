@@ -16,7 +16,7 @@ function Header(props) {
         <div className={classes.bg}>
           <Image
             src={props.carousel.background[0]?.url}
-            alt={`text.png`}
+            alt={props.carousel.background[0]?.url}
             fill={true}
             quality={100}
             priority={true}
