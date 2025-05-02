@@ -17,6 +17,6 @@ app.prepare().then(() => {
   });
   server.listen(port, (err) => {
     if (err) throw err;
-    console.log(`> Ready on https://e-commerce-eight-kappa-88.vercel.app:${port}`);
+     console.log(`> Ready on http://localhost:${port}`);
   });
 });
