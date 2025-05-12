@@ -21,7 +21,7 @@ export default async function apiHandler(req, res) {
       try {
         const result = await parseForm(req);
         const imageName = result.file.file.newFilename;
-        const url = `${process.env.NEXT_PUBLIC_URL}/${imageName}`;
+        const url = `https://shop-navy-xi.vercel.app/${imageName}`;
         res.status(200).json({ success: true, name: imageName, url });
       } catch (err) {
         console.log(err);
