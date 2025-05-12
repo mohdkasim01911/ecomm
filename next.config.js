@@ -4,7 +4,7 @@ const next_config = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ["localhost","shop-navy-xi.vercel.app"], // Add any external domains if needed
+    domains: ["shop-navy-xi.vercel.app"], // Add any external domains if needed
   },
   i18n: {
     defaultLocale: "en",
